@@ -6,6 +6,7 @@ for line in dicts.readlines():
     line = line.split()[0]
     f.write(str(text.count(line.split()[0]))+" "+line+"\n")
 
+f.close()
 # # Edit by Takeshi
 # from collections import OrderedDict
 # dicts = open("dict.txt","r")
